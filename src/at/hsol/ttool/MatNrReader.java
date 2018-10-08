@@ -19,7 +19,6 @@ public class MatNrReader {
 			List<String> list = Files.lines(Paths.get(listFile)).collect(Collectors.toList());
 			this.matNrList = list;
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			this.matNrList = null;
 		}
